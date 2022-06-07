@@ -1,13 +1,12 @@
-import csv
+import numpy as np
+import pandas as pd
+import plotly.graph_objects as go
 
 data_file = "../data/penguins.csv"
 
-datasets = []
+dataset = pd.read_csv(data_file, sep=',', index_col=0)
 
-with open(data_file, newline='') as csvfile:
-    reader = csv.reader(csvfile, delimiter=',', quotechar='"')
-    for line in reader:
-        datasets.append(line)
+print(dataset)
 
-for dataset in datasets:
-    print(dataset)
+
+
