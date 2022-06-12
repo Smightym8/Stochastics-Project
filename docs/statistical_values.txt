@@ -1,0 +1,182 @@
+Average bill length: 43.9927927927928mm
+Median bill length: 44.5mm
+Standard Deviation bill length: 5.460450955071463mm
+Variance bill length: 29.816524632740848mm²
+
+Average bill depth: 17.164864864864867mm
+Median bill depth: 17.3mm
+Standard Deviation bill depth: 1.9662764301482418mm
+Variance bill depth: 3.8662429997565133mm²
+
+Average flipper length: 200.96696696696696mm
+Median flipper length: 197.0mm
+Standard Deviation flipper length: 13.994704772576716mm
+Variance flipper length: 195.8517616715815mm²
+
+Average body mass: 4207.057057057057g
+Median body mass: 4050.0g
+Standard Deviation body mass: 804.0058601595629g
+Variance body mass: 646425.4231709186g²
+
+Average bill length female: 42.096969696969694mm
+Median bill length female: 42.8mm
+Standard Deviation bill length female: 4.888594mm
+Variance bill length female: 23.898354mm²
+
+Average bill depth female: 16.425454545454546mm
+Median bill depth female: 17.0mm
+Standard Deviation bill depth female: 1.790231mm
+Variance bill depth female: 3.204928mm²
+
+Average flipper length female: 197.36363636363637mm
+Median flipper length female: 193.0mm
+Standard Deviation flipper length female: 12.462837mm
+Variance flipper length female: 155.322314mm²
+
+Average body mass female: 3862.2727272727275g
+Median body mass female: 3650.0g
+Standard Deviation body mass female: 664.150278g
+Variance body mass female: 441095.592287g²
+
+Average bill length male: 45.85476190476191mm
+Median bill length male: 46.8mm
+Standard Deviation bill length male: 5.350899mm
+Variance bill length male: 28.63212mm²
+
+Average bill depth male: 17.89107142857143mm
+Median bill depth male: 18.45mm
+Standard Deviation bill depth male: 1.857797mm
+Variance bill depth male: 3.451408mm²
+
+Average flipper length male: 204.50595238095238mm
+Median flipper length male: 200.5mm
+Standard Deviation flipper length male: 14.504514mm
+Variance flipper length male: 210.380917mm²
+
+Average body mass male: 4545.684523809524g
+Median body mass male: 4300.0g
+Standard Deviation body mass male: 785.281252g
+Variance body mass male: 616666.644522g²
+
+Average bill length adelie: 38.82397260273973mm
+Median bill length adelie: 38.849999999999994mm
+Standard Deviation bill length adelie: 2.653463mm
+Variance bill length adelie: 7.040864mm²
+
+Average bill depth adelie: 18.3472602739726mm
+Median bill depth adelie: 18.4mm
+Standard Deviation bill depth adelie: 1.215155mm
+Variance bill depth adelie: 1.476602mm²
+
+Average flipper length adelie: 190.1027397260274mm
+Median flipper length adelie: 190.0mm
+Standard Deviation flipper length adelie: 6.499451mm
+Variance flipper length adelie: 42.242869mm²
+
+Average body mass adelie: 3706.1643835616437g
+Median body mass adelie: 3700.0g
+Standard Deviation body mass adelie: 457.046819g
+Variance body mass adelie: 208891.794896g²
+
+Average bill length gentoo: 47.568067226890754mm
+Median bill length gentoo: 47.4mm
+Standard Deviation bill length gentoo: 3.093037mm
+Variance bill length gentoo: 9.566879mm²
+
+Average bill depth gentoo: 14.996638655462187mm
+Median bill depth gentoo: 15.0mm
+Standard Deviation bill depth gentoo: 0.981846mm
+Variance bill depth gentoo: 0.964022mm²
+
+Average flipper length gentoo: 217.23529411764707mm
+Median flipper length gentoo: 216.0mm
+Standard Deviation flipper length gentoo: 6.557702mm
+Variance flipper length gentoo: 43.00346mm²
+
+Average body mass gentoo: 5092.436974789916g
+Median body mass gentoo: 5050.0g
+Standard Deviation body mass gentoo: 499.364666g
+Variance body mass gentoo: 49365.069557g²
+
+Average bill length chinstrap: 48.83382352941177mm
+Median bill length chinstrap: 49.55mm
+Standard Deviation bill length chinstrap: 3.314612mm
+Variance bill length chinstrap: 10.98665mm²
+
+Average bill depth chinstrap: 18.42058823529412mm
+Median bill depth chinstrap: 18.45mm
+Standard Deviation bill depth chinstrap: 1.127016mm
+Variance bill depth chinstrap: 1.270164mm²
+
+Average flipper length chinstrap: 195.8235294117647mm
+Median flipper length chinstrap: 196.0mm
+Standard Deviation flipper length chinstrap: 7.07926mm
+Variance flipper length chinstrap: 50.115917mm²
+
+Average body mass chinstrap: 3733.0882352941176g
+Median body mass chinstrap: 3700.0g
+Standard Deviation body mass chinstrap: 381.498621g
+Variance body mass chinstrap: 145541.198097g²
+
+Average bill length torgersen: 39.038297872340415mm
+Median bill length torgersen: 39.0mm
+Standard Deviation bill length torgersen: 2.99571mm
+Variance bill length torgersen: 8.974278mm²
+
+Average bill depth torgersen: 18.451063829787234mm
+Median bill depth torgersen: 18.4mm
+Standard Deviation bill depth torgersen: 1.332071mm
+Variance bill depth torgersen: 1.774414mm²
+
+Average flipper length torgersen: 191.53191489361703mm
+Median flipper length torgersen: 191.0mm
+Standard Deviation flipper length torgersen: 6.153536mm
+Variance flipper length torgersen: 37.866003mm²
+
+Average flipper length torgersen: 3708.5106382978724g
+Median flipper length torgersen: 3700.0g
+Standard Deviation flipper length torgersen: 447.013631g
+Variance flipper length torgersen: 199821.18605764g²
+
+Average bill length biscoe: 45.24846625766871mm
+Median bill length biscoe: 45.8mm
+Standard Deviation bill length biscoe: bill_length_mm    4.812488
+dtype: float64mm
+Variance bill length biscoe: 23.160044mm²
+
+Average bill depth biscoe: 15.907361963190182mm
+Median bill depth biscoe: 15.6mm
+Standard Deviation bill depth biscoe: 1.822038mm
+Variance bill depth biscoe: 3.319823mm²
+
+Average flipper length biscoe: 209.55828220858896mm
+Median flipper length biscoe: 213.0mm
+Standard Deviation flipper length biscoe: 14.238588mm
+Variance flipper length biscoe: 202.737401mm²
+
+Average body mass biscoe: 4719.171779141105g
+Median body mass biscoe: 4800.0g
+Standard Deviation body mass biscoe: 788.430386g
+Variance body mass biscoe: 621622.473559g²
+
+Average bill length dream: 44.221951219512206mm
+Median bill length dream: 45.2mm
+Standard Deviation bill length dream: 5.922845mm
+Variance bill length dream: 35.080087mm²
+
+Average bill depth dream: 18.339837398373977mm
+Median bill depth dream: 18.4mm
+Standard Deviation bill depth dream: 1.131999mm
+Variance bill depth dream: 1.281421mm²
+
+Average flipper length dream: 193.1869918699187mm
+Median flipper length dream: 193.0mm
+Standard Deviation flipper length dream: 7.398472mm
+Variance flipper length dream: 54.737392mm²
+
+Average flipper length dream: 3718.9024390243903g
+Median flipper length dream: 3700.0g
+Standard Deviation flipper length dream: 411.253555g
+Variance flipper length dream: 169129.486417g²
+
+
