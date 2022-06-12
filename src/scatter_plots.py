@@ -92,3 +92,19 @@ def generate_scatter_plots(dataset, plots_dir):
     flipper_length_body_mass_correlation_ax.set_ylabel('Body mass (g)')
     flipper_length_body_mass_correlation.savefig(plots_dir + "/flipper_length_body_mass_correlation.jpg",
                                                  dpi=flipper_length_body_mass_correlation.dpi)
+
+    # Species and bill length
+
+    # Species and bill depth
+
+    # Species and flipper length
+
+    # Species and body mass
+
+    # Island and bill length
+
+    # Island and bill depth
+
+    # Island and flipper length
+
+    # Island and body mass
