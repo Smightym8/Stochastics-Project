@@ -2,6 +2,7 @@ import pandas as pd
 import boxplots
 import pie_plots
 import scatter_plots
+import bar_plots
 import statistical_values
 
 plots_dir = "../plots"
@@ -15,4 +16,5 @@ dataset.dropna(inplace=True)
 boxplots.generate_boxplots(dataset, plots_dir)
 pie_plots.generate_pie_plots(dataset, plots_dir)
 scatter_plots.generate_scatter_plots(dataset, plots_dir)
+bar_plots.create_bar_plot(dataset, plots_dir)
 statistical_values.calculate_statistical_values(dataset)

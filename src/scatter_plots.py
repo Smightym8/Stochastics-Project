@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 
 
+# TODO: Colorize by species
 def generate_scatter_plots(dataset, plots_dir):
     # Scatter plots
     # Sex and bill lengths
@@ -94,17 +95,73 @@ def generate_scatter_plots(dataset, plots_dir):
                                                  dpi=flipper_length_body_mass_correlation.dpi)
 
     # Species and bill length
+    species_bill_length_correlation, species_bill_length_correlation_ax = plt.subplots()
+    species_bill_length_correlation_ax.scatter(x=dataset.species, y=dataset.bill_length_mm)
+    species_bill_length_correlation_ax.set_title('Correlation of Species and Bill length (mm)')
+    species_bill_length_correlation_ax.set_xlabel('Species')
+    species_bill_length_correlation_ax.set_ylabel('Bill length (mm)')
+    species_bill_length_correlation.savefig(plots_dir + "/species_bill_length_correlation.jpg",
+                                            dpi=species_bill_length_correlation.dpi)
 
     # Species and bill depth
+    species_bill_depth_correlation, species_bill_depth_correlation_ax = plt.subplots()
+    species_bill_depth_correlation_ax.scatter(x=dataset.species, y=dataset.bill_depth_mm)
+    species_bill_depth_correlation_ax.set_title('Correlation of Species and Bill depth (mm)')
+    species_bill_depth_correlation_ax.set_xlabel('Species')
+    species_bill_depth_correlation_ax.set_ylabel('Bill depth (mm)')
+    species_bill_depth_correlation.savefig(plots_dir + "/species_bill_depth_correlation.jpg",
+                                           dpi=species_bill_depth_correlation.dpi)
 
     # Species and flipper length
+    species_flipper_length_correlation, species_flipper_length_correlation_ax = plt.subplots()
+    species_flipper_length_correlation_ax.scatter(x=dataset.species, y=dataset.flipper_length_mm)
+    species_flipper_length_correlation_ax.set_title('Correlation of Species and Flipper length (mm)')
+    species_flipper_length_correlation_ax.set_xlabel('Species')
+    species_flipper_length_correlation_ax.set_ylabel('Flipper length (mm)')
+    species_flipper_length_correlation.savefig(plots_dir + "/species_flipper_length_correlation.jpg",
+                                               dpi=species_flipper_length_correlation.dpi)
 
     # Species and body mass
+    species_body_mass_correlation, species_body_mass_correlation_ax = plt.subplots()
+    species_body_mass_correlation_ax.scatter(x=dataset.species, y=dataset.body_mass_g)
+    species_body_mass_correlation_ax.set_title('Correlation of Species and Body mass (g)')
+    species_body_mass_correlation_ax.set_xlabel('Species')
+    species_body_mass_correlation_ax.set_ylabel('Body mass (g)')
+    species_body_mass_correlation.savefig(plots_dir + "/species_body_mass_correlation.jpg",
+                                          dpi=species_body_mass_correlation.dpi)
 
     # Island and bill length
+    island_bill_length_correlation, island_bill_length_correlation_ax = plt.subplots()
+    island_bill_length_correlation_ax.scatter(x=dataset.island, y=dataset.bill_length_mm)
+    island_bill_length_correlation_ax.set_title('Correlation of Island and Bill length (mm)')
+    island_bill_length_correlation_ax.set_xlabel('Island')
+    island_bill_length_correlation_ax.set_ylabel('Bill length (mm)')
+    island_bill_length_correlation.savefig(plots_dir + "/island_bill_length_correlation.jpg",
+                                           dpi=island_bill_length_correlation.dpi)
 
     # Island and bill depth
+    island_bill_depth_correlation, island_bill_depth_correlation_ax = plt.subplots()
+    island_bill_depth_correlation_ax.scatter(x=dataset.island, y=dataset.bill_depth_mm)
+    island_bill_depth_correlation_ax.set_title('Correlation of Island and Bill depth (mm)')
+    island_bill_depth_correlation_ax.set_xlabel('Island')
+    island_bill_depth_correlation_ax.set_ylabel('Bill depth (mm)')
+    island_bill_depth_correlation.savefig(plots_dir + "/island_bill_depth_correlation.jpg",
+                                          dpi=island_bill_depth_correlation.dpi)
 
     # Island and flipper length
+    island_flipper_length_correlation, island_flipper_length_correlation_ax = plt.subplots()
+    island_flipper_length_correlation_ax.scatter(x=dataset.island, y=dataset.flipper_length_mm)
+    island_flipper_length_correlation_ax.set_title('Correlation of Island and Flipper length (mm)')
+    island_flipper_length_correlation_ax.set_xlabel('Island')
+    island_flipper_length_correlation_ax.set_ylabel('Flipper length (mm)')
+    island_flipper_length_correlation.savefig(plots_dir + "/island_flipper_length_correlation.jpg",
+                                              dpi=island_flipper_length_correlation.dpi)
 
     # Island and body mass
+    island_body_mass_correlation, island_body_mass_correlation_ax = plt.subplots()
+    island_body_mass_correlation_ax.scatter(x=dataset.island, y=dataset.body_mass_g)
+    island_body_mass_correlation_ax.set_title('Correlation of Island and Body mass (g)')
+    island_body_mass_correlation_ax.set_xlabel('Island')
+    island_body_mass_correlation_ax.set_ylabel('Body mass (g)')
+    island_body_mass_correlation.savefig(plots_dir + "/island_body_mass_correlation.jpg",
+                                         dpi=island_body_mass_correlation.dpi)
