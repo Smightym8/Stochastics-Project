@@ -179,4 +179,30 @@ Median flipper length dream: 3700.0g
 Standard Deviation flipper length dream: 411.253555g
 Variance flipper length dream: 169129.486417g²
 
+Bill length and bill depth pearson
+[[ 1.         -0.22862564]
+ [-0.22862564  1.        ]]
+
+Bill length and flipper length pearson
+[[1.         0.65309564]
+ [0.65309564 1.        ]]
+
+Bill length and body mass pearson
+[[1.         0.58945111]
+ [0.58945111 1.        ]]
+
+Bill depth and flipper length pearson
+[[ 1.        -0.5777917]
+ [-0.5777917  1.       ]]
+
+Bill depth and body mass pearson
+[[ 1.         -0.47201566]
+ [-0.47201566  1.        ]]
+
+Flipper length and body mass pearson
+[[1.        0.8729789]
+ [0.8729789 1.       ]]
+
+
+
 

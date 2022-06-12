@@ -430,3 +430,32 @@ def calculate_statistical_values(dataset):
     print("Median flipper length dream: " + str(body_mass_median_dream) + "g")
     print("Standard Deviation flipper length dream: " + str(body_mass_std_dream) + "g")
     print("Variance flipper length dream: " + str(body_mass_var_dream) + "g²\n")
+
+    # Bill length and bill depth pearson
+    bill_length_depth_pearson = np.corrcoef(dataset.bill_length_mm, dataset.bill_depth_mm)
+    print(bill_length_depth_pearson)
+    print("\n")
+
+    # Bill length and flipper length pearson
+    bill_length_flipper_length_pearson = np.corrcoef(dataset.bill_length_mm, dataset.flipper_length_mm)
+    print(bill_length_flipper_length_pearson)
+    print("\n")
+
+    # Bill length and body mass pearson
+    bill_length_body_mass_pearson = np.corrcoef(dataset.bill_length_mm, dataset.body_mass_g)
+    print(bill_length_body_mass_pearson)
+    print("\n")
+
+    # Bill depth and flipper length pearson
+    bill_depth_flipper_length_pearson = np.corrcoef(dataset.bill_depth_mm, dataset.flipper_length_mm)
+    print(bill_depth_flipper_length_pearson)
+    print("\n")
+
+    # Bill depth and body mass pearson
+    bill_depth_body_mass_pearson = np.corrcoef(dataset.bill_depth_mm, dataset.body_mass_g)
+    print(bill_depth_body_mass_pearson)
+    print("\n")
+
+    # Flipper length and body mass pearson
+    flipper_length_body_mass_pearson = np.corrcoef(dataset.flipper_length_mm, dataset.body_mass_g)
+    print(flipper_length_body_mass_pearson)

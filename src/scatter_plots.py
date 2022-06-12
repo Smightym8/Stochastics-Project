@@ -1,7 +1,6 @@
 import matplotlib.pyplot as plt
 
 
-# TODO: Colorize by species
 def generate_scatter_plots(dataset, plots_dir):
     # Scatter plots
     # Sex and bill lengths
